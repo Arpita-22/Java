@@ -3,9 +3,13 @@
 public class App {
 	
 	public static void main(String[]args) {	
+		App app1 = new App();
+		app1.hello();
 		
-		Animal dog1 = new Dog ();
-		dog1.eat();
+	}
+	
+	public void hello() {
+		System.out.println("hello");
 		
 	}
 
