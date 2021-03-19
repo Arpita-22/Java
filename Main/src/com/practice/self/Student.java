@@ -1,3 +1,4 @@
+package com.practice.self;
 
 public class Student {
 	private String name;
